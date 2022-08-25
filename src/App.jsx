@@ -90,6 +90,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className="row justify-content-center p-3">
+          <h3 className="display-6">Users</h3>
           <div className="col-md-10">
             <User />
           </div>

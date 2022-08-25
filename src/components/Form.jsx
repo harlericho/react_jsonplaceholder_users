@@ -62,9 +62,7 @@ function Form({ guardarUsuario, actualizarUsuario, setDataEdit, dataEdit }) {
           value={form.email}
           onChange={handleChange}
         />
-        <button type="submit">
-          {form.id === null ? "Guardar" : "Actualizar"}
-        </button>
+        <button type="submit">{form.id === null ? "Save" : "Update"}</button>
       </form>
     </Fragment>
   );
